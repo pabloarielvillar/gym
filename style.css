@@ -1,7 +1,7 @@
 #container{
     display:grid;
-    padding: 2px;
-    margin: 10px 10px;
+    padding: 5px;
+    margin: 0px 0px;
     height: auto;
     width: auto;
     background: linear-gradient(70deg, rgb(28, 167, 46), rgb(241, 130, 25));
