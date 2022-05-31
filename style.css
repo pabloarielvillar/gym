@@ -2,7 +2,7 @@
     display:grid;
     padding: 2px;
     margin: 10px 10px;
-    height: 2050px;
+    height: auto;
     width: auto;
     background: linear-gradient(70deg, rgb(28, 167, 46), rgb(241, 130, 25));
     grid-gap: 1px;
