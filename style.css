@@ -81,7 +81,7 @@ span#subtitulo{
     padding: 0px 0px 20px 0px;
     text-align: center;
     font-family: Georgia;
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
@@ -91,7 +91,7 @@ span#subtitulo{
     text-size-adjust: auto;
     box-sizing:border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -113,15 +113,15 @@ td {
     height: 30px;
 }
 
-td:hover{
+/*td:hover{
     background-color: rgb(255, 251, 0);
-    /* font-weight: bold; */
+     font-weight: bold; 
     font-family: arial;
     font: bold;
     background-color: rgb(241, 102, 21);
     color: rgb(2, 2, 2);
 
-}
+}*/
 
 h3{
     text-align: center;
@@ -135,6 +135,6 @@ tr:nth-of-type(1) > th{
     display:grid;
     /* padding: 0px 0px 0px 0px; */
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     color: rgb(0, 0, 0);
 }
