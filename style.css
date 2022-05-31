@@ -48,9 +48,9 @@
 
 .noticias{
     grid-area: foot;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 100%;
-    text-align:center;
+    text-align: center;
 }
 
 .contactenos{
