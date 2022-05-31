@@ -30,14 +30,15 @@
     grid-area: titulo;
     font-weight: bold;
     border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
-    height: 200px;
+    border-top-right-radius: 2em;    
+    height: 120px;
 }
 
 .left{
     grid-area: left;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 100px;
 }
 
 .right{
