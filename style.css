@@ -30,7 +30,8 @@
     grid-area: titulo;
     font-weight: bold;
     border-top-left-radius: 2em;
-    border-top-right-radius: 2em;    
+    border-top-right-radius: 2em;
+    height: 200px;
 }
 
 .left{
