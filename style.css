@@ -48,6 +48,7 @@
 
 .noticias{
     grid-area: foot;
+    text-algin: center;
 }
 
 .contactenos{
