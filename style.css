@@ -1,0 +1,134 @@
+#container{
+    display:grid;
+    padding: 2px;
+    margin: 10px 10px;
+    height: 2050px;
+    width: auto;
+    background: linear-gradient(70deg, rgb(28, 167, 46), rgb(241, 130, 25));
+    grid-gap: 1px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
+    grid-template-areas: "titulo" "left" "right" "foot" "footer";
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+.element{
+    background-color: rgb(136, 60, 10);
+    height: auto;
+    width: auto;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+.titulo{
+    grid-area: titulo;
+    font-weight: bold;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;    
+}
+
+.left{
+    grid-area: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.right{
+    grid-area: right;
+    align-items:flex-end;
+}
+
+.noticias{
+    grid-area: foot;
+}
+
+.contactenos{
+    grid-area: footer;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+span#titulo{
+    display:grid;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 4rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: 2px gold;;
+}
+
+span#subtitulo{
+    display:grid;
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.tabla {
+    border-collapse:collapse;
+    text-size-adjust: auto;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+th{
+    border: 5px solid rgb(214, 119, 64);
+    background-color: rgb(224, 177, 47);
+    width: 10em;
+    text-align: center;
+}
+
+td {
+    border: 5px solid rgb(214, 119, 64);
+    background-color: bisque;
+    width:10em;
+    text-align: center;
+    height: 30px;
+}
+
+td:hover{
+    background-color: rgb(255, 251, 0);
+    /* font-weight: bold; */
+    font-family: arial;
+    font: bold;
+    background-color: rgb(241, 102, 21);
+    color: rgb(2, 2, 2);
+
+}
+
+h3{
+    text-align: center;
+}
+
+tr:nth-of-type(1) > th{
+    background-color: rgb(235, 158, 17);
+}
+
+#instagram, #telefono, #whatsapp{
+    display:grid;
+    /* padding: 0px 0px 0px 0px; */
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+}
