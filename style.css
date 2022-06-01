@@ -153,7 +153,7 @@ tr:nth-of-type(1) > th{
 }
 
 .contenido-botones{
-    width: 60%;
+    width: 80%;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     gap:30px;
@@ -168,7 +168,7 @@ tr:nth-of-type(1) > th{
     height: 40px;
     background:rgb(206, 204, 94);
     color:rgb(0, 0, 0);
-    font-size: 15px;
+    font-size: 25px;
     cursor:pointer;
     text-transform: uppercase;
     transition: .3s ease all;
@@ -178,7 +178,7 @@ tr:nth-of-type(1) > th{
 
 .boton:hover{
     background: rgb(146, 185, 4);
-    font-size: 12px;
+    font-size: 20px;
     color:black bold;
 
 }
