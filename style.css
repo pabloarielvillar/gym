@@ -73,8 +73,8 @@ span#titulo{
     text-shadow: -3px 2px 0 #802603, -5px 4px 0 #c45e2f;
     text-align: center;
     font-family: Georgia;
-    font-size: 6rem;
-    color: rgb(0, 0, 0);
+    font-size: 4rem;
+    color: rgb(229, 253, 13);
     font-weight: bold;
     text-shadow: 2px gold;
 }
@@ -102,29 +102,28 @@ span#subtitulo{
 }
 
 th{
-    border: 5px solid rgb(214, 119, 64);
-    background-color: rgb(224, 177, 47);
+    border: 5px solid rgb(209, 105, 45);
+    background-color: rgb(230, 175, 24);
     width: 10em;
     text-align: center;
 }
 
 td {
-    border: 5px solid rgb(214, 119, 64);
-    background-color: bisque;
+    border: 5px solid rgb(209, 105, 45);
+    background-color: rgb(235, 230, 171);
     width:10em;
     text-align: center;
     height: 30px;
 }
 
-/*td:hover{
+/* td:hover{
     background-color: rgb(255, 251, 0);
-     font-weight: bold; 
+    font-weight: bold;
     font-family: arial;
     font: bold;
-    background-color: rgb(241, 102, 21);
+    background-color: rgb(218, 152, 76);
     color: rgb(2, 2, 2);
-
-}*/
+} */
 
 h3{
     text-align: center;
@@ -167,8 +166,9 @@ tr:nth-of-type(1) > th{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 45px;
+    height: 40px;
     background:rgb(206, 204, 94);
+    box-shadow: -3px 2px 0 #802603, -5px 4px 0 #c45e2f;
     color:rgb(0, 0, 0);
     font-size: 25px;
     cursor:pointer;
