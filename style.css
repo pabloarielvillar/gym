@@ -170,7 +170,52 @@ tr:nth-of-type(1) > th{
     background:rgb(206, 204, 94);
     box-shadow: -3px 2px 0 #802603, -5px 4px 0 #c45e2f;
     color:rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 20px;
+    cursor:pointer;
+    text-transform:capitalize;
+    transition: .3s ease all;
+    border-radius: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* .boton:hover{
+    background: rgb(146, 185, 4);
+    font-size: 20px;
+    color:black bold;
+
+} */
+
+/* BOTONES CLASES*/
+
+.contenedor-clases{
+    width: auto px;
+    margin:auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-botones-clases{
+    width: 80%;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap:20px;
+
+}
+
+.boton5 {
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background:rgb(134, 206, 86);
+    box-shadow: -3px 2px 0 #802603, -5px 4px 0 #c45e2f;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
     cursor:pointer;
     text-transform: uppercase;
     transition: .3s ease all;
@@ -178,9 +223,8 @@ tr:nth-of-type(1) > th{
     font-family:'Times New Roman', Times, serif;
 }
 
-.boton:hover{
+/* .boton:hover{
     background: rgb(146, 185, 4);
     font-size: 20px;
     color:black bold;
-
-}
+} */
