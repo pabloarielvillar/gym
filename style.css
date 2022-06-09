@@ -163,10 +163,10 @@ tr:nth-of-type(1) > th{
 }
 
 .contenido-botones{
-    width: 80%;
+    width: 40%;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
-    gap:30px;
+    gap:50px;
 
 }
 
@@ -259,7 +259,6 @@ tr:nth-of-type(1) > th{
     background: rgb(146, 185, 4);
     font-size: 20px;
     color:black bold;
-
 } */
 
 /* BOTONES CLASES*/
@@ -275,7 +274,7 @@ tr:nth-of-type(1) > th{
 }
 
 .contenido-botones-clases{
-    width: 80%;
+    width: 100%;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -332,29 +331,22 @@ tr:nth-of-type(1) > th{
     width: 99%;
     position: absolute;
     top: 0;
-    padding-left: 100px;
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: space-around;    
     padding: 10px;
+    font-size: 100px;
 }
 
 /* #tarjetacarrusel1{
     background-color: aquamarine;
 }
-
 #tarjetacarrusel2{
     background-color: #bb8a52;
 }
-
 #tarjetacarrusel3{
     background-color: #c45e2f;
 } */
 
-.fa-solid{
-    color: rgb(255, 255, 255);
-    font-size: 70px;
-    text-shadow: -5px 0 #da120b;
-}
 
