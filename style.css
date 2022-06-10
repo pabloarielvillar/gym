@@ -8,7 +8,7 @@
     background: linear-gradient(70deg, rgb(241, 130, 25),rgb(99, 52, 8));
     grid-gap: 1px;
     grid-template-columns: 1fr;
-    grid-template-areas: "titulo" "left" "contenedorfotos" "right" "foot" "footer";
+    grid-template-areas: "titulo" "contenedorfotos" "left" "right" "foot" "footer";
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
     border-bottom-left-radius: 2em;
@@ -155,7 +155,7 @@ tr:nth-of-type(1) > th{
 .contenedor{
     width: auto px;
     margin:auto;
-    padding: 30px 0;
+    padding: 20px 0px 30px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,10 +163,10 @@ tr:nth-of-type(1) > th{
 }
 
 .contenido-botones{
-    width: 40%;
+    width: 50%;
     display:grid;
     grid-template-columns: repeat(4, 1fr);
-    gap:30px;
+    gap:20px;
 
 }
 
@@ -192,15 +192,15 @@ tr:nth-of-type(1) > th{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 60px;
     background: linear-gradient(50deg, rgb(247, 243, 41), rgb(214, 96, 0));
     color:rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 50px;
+    height: 100px;
+    border-radius: 30px;
     cursor:pointer;
     text-transform:capitalize;
     transition: .3s ease all;
-    border-radius: 20px;
-    font-family:'Times New Roman', Times, serif;
+    /* font-family:'Times New Roman', Times, serif; */
 }
 
 .botondos{
@@ -208,14 +208,14 @@ tr:nth-of-type(1) > th{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 60px;
     background: linear-gradient( rgb(169 173 235), rgb(95 69 213));
     color:rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 50px;
+    height: 100px;
+    border-radius: 30px;
     cursor:pointer;
     text-transform:capitalize;
     transition: .3s ease all;
-    border-radius: 20px;
     font-family:'Times New Roman', Times, serif;
 }
 
@@ -224,14 +224,14 @@ tr:nth-of-type(1) > th{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 60px;
     background: linear-gradient(50deg, rgb(109, 214, 88), rgb(41, 185, 12));
     color:rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 50px;
+    height: 100px;
+    border-radius: 30px;
     cursor:pointer;
     text-transform:capitalize;
     transition: .3s ease all;
-    border-radius: 20px;
     font-family:'Times New Roman', Times, serif;
 }
 
@@ -240,14 +240,14 @@ tr:nth-of-type(1) > th{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 60px;
     background: linear-gradient(50deg, rgb(105, 155, 88), rgb(101, 187, 72));
     color:rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 50px;
+    height: 100px;
+    border-radius: 30px;
     cursor:pointer;
     text-transform:capitalize;
     transition: .3s ease all;
-    border-radius: 20px;
     font-family:'Times New Roman', Times, serif;
 }
 
@@ -287,7 +287,7 @@ tr:nth-of-type(1) > th{
     background:rgb(206, 204, 94);
     box-shadow: -3px 2px 0 #802603, -5px 4px 0 #bd6840;
     color:rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 26px;
     cursor:pointer;
     text-transform: uppercase;
     transition: .3s ease all;
@@ -303,8 +303,8 @@ tr:nth-of-type(1) > th{
 
 #contenedoritemscarrusel{
     padding: 0px;
-    margin: 0px;
-    height: 520px;
+    margin: 80px;
+    height: 420px;
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -320,7 +320,22 @@ tr:nth-of-type(1) > th{
 .tarjetacarrusel{
     /* background-color: rgb(8, 95, 66); */
     height: 100%;
+    /* animation: cambio 20s infinite alternate linear; */
 }
+
+/* @keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+} */
 
 .flechascarrusel{
     height: 100%;
