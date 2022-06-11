@@ -5,7 +5,7 @@
     height: auto;
     width: auto;
     box-sizing: border-box;    
-    background: linear-gradient(70deg, rgb(241, 130, 25),rgb(99, 52, 8));
+    /* background: linear-gradient(70deg, rgb(241, 130, 25),rgb(99, 52, 8)); */
     grid-gap: 1px;
     grid-template-columns: 1fr;
     grid-template-areas: "titulo" "contenedorfotos" "left" "right" "foot" "footer";
@@ -37,9 +37,13 @@ a{
     grid-area: titulo;
     font-weight: bold;
     border-top-left-radius: 2em;
-    border-top-right-radius: 2em;    
-    height: 160px;
+    border-top-right-radius: 2em; 
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;   
+    height: 250px;
     padding-top: 50px;
+    background-image: url("fondo3.jpg"); background-repeat: no-repeat; height:250px;
+    /* background: linear-gradient(70deg, rgb(241, 130, 25),rgb(99, 52, 8)); */
 }
 
 .left{
@@ -48,6 +52,7 @@ a{
     padding-bottom: 15px;
     height: 120px;
     text-align: center;
+    margin-top: -100px;
 }
 
 .right{
