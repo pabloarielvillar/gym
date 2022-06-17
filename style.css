@@ -230,3 +230,39 @@ p{
 .ubicacion span{
     color: #dcc425;
 }
+
+@media (max-width: 600px) {
+    .barrainicio{
+        display: grid;
+        grid-template-columns: 100px auto;
+        grid-template-rows: 150px auto;
+        height: auto;
+    }
+    .titulo{
+        font-size: 50px;
+        margin-left: 15px;
+    }
+    
+    #logoprincipal{
+        width: 100px;
+    }
+
+    body{
+        margin: 10px 10px;
+    }
+
+    .botonuno, .botondos, .botontres, .botoncuatro{
+        font-size: 30px;
+        border: 2px;
+        justify-content: center;
+    }
+
+    .contenedorprincipal{
+        display:none;
+    }
+
+    .container_slider{
+        display: grid;
+    }
+
+  }
