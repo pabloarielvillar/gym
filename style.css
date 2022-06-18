@@ -23,15 +23,14 @@
 
 .botonuno, .botondos, .botontres, .botoncuatro{
   background-color: rgb(35, 35, 35);
-  font-size: 25px;
+  font-size: 3.5vw;
   border-color: rgb(35, 35, 35);
   border: 2px;
 }
 
 .botonuno:hover, .botondos:hover, .botontres:hover, .botoncuatro:hover, .fa-brands:hover, .fa-solid:hover{
-  font-size: 35px;
-  color:rgb(255, 196, 0);
-  transition-duration: 0.4s;
+  color:rgb(217, 255, 0);
+  transition-duration: 0.3s;
 }
 
 .fa-brands{
@@ -57,7 +56,7 @@
   }
 
 #logoprincipal{
-    width: 13vw;
+    width: 25vw;
     height: auto;
 }
 
