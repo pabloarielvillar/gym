@@ -24,7 +24,7 @@ body{
 .titulo{
     color: yellow;
     text-align: center;
-    font-size: 80px;
+    font-size: 7vw;
     text-shadow: 3px 3px brown, 0 0px 50px  rgb(255, 191, 40);
     font-family: Rampart One;
 }
@@ -231,7 +231,8 @@ p{
     color: #dcc425;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 900px){
+
     .barrainicio{
         display: grid;
         grid-template-columns: 100px auto;
@@ -239,7 +240,7 @@ p{
         height: auto;
     }
     .titulo{
-        font-size: 50px;
+        font-size: 6vw;
         margin-left: 15px;
     }
     
@@ -258,11 +259,16 @@ p{
     }
 
     .contenedorprincipal{
-        display:none;
+        display:flex;
     }
 
     .container_slider{
         display: grid;
+        width: 100%;
     }
 
+    .lista{
+        display:none;
+
+    }
   }
