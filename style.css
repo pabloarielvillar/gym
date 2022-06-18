@@ -231,7 +231,7 @@ p{
     color: #dcc425;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .barrainicio{
         display: grid;
         grid-template-columns: 100px auto;
