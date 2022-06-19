@@ -18,7 +18,7 @@
   gap: 30px;
   justify-items: right;
   align-items: center;
-  height: 60px;
+  height: 50px;
 }
 
 .botonuno, .botondos, .botontres, .botoncuatro{
@@ -49,7 +49,7 @@ body {
   
 /* Header/logo Title */
 .header {
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     background: #000000;
     color: rgb(255, 251, 0);
@@ -61,21 +61,23 @@ body {
 }
 
 .titulo{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: yellow;
     font-size: 9vw;
-    padding: 10px;
     margin: 0px;
 }
 
-.subtitulo{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.subtitulo h2{
+  font-family:'Times New Roman', Times, serif;
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
 
 /* Style the top navigation bar */
 .navbar {
     display: flex;
     background-color: rgb(35, 35, 35);
+    justify-content: space-evenly;
 }
   
 /* Style the navigation bar links */
@@ -125,6 +127,16 @@ body {
     padding: 20px;
     text-align: center;
     background: rgb(35, 35, 35);
+  }
+
+  .horarios{
+    margin-top:70px;
+    text-align: center;
+  }
+  
+  .galeria{
+    margin-top:70px;
+    text-align: center;
   }
 
   /* SLIDER */
