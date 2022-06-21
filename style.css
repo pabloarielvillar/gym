@@ -76,7 +76,7 @@ body {
   align-items: center;
   grid-area: titulo;
   font-family: sans-serif;
-  font-size: 100px;
+  font-size: 8vw;
   color: yellow;
   text-shadow: 3px 3px brown, 0 0px 50px  rgb(255, 77, 0);
 }
@@ -96,19 +96,19 @@ body {
   grid-area: direccionuno;
   padding-top: 20px;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1em;
+  justify-items: left;
 }
 
 .direcciondos{
   display: grid;
   grid-area: direcciondos;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 1em;
 }
 
 .header p{
     color: #dcc425;
-    align-items: center;
 }
 
 .navbar {
