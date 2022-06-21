@@ -217,10 +217,9 @@ td {
 }
 
 .clases{
-  display:grid;
-
+  display: grid;
   padding: 80px 40px;
-  justify-content: left;
+  justify-content: center;
 }
 
 .clases h1{
@@ -228,11 +227,11 @@ td {
 }
 
 .contenedorclases{
-  display:grid;
+  display: inline-table;
   width: 100%;
   gap: 15px;
   justify-items:left;
-  padding: 40px 40px;
+
 }
 
 @media (max-width: 900px) {
