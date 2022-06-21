@@ -58,7 +58,7 @@ body {
 
 #logoprincipal{
   grid-area: logoprincipal;
-  width: 25vw;
+  width: 230px;
   height: auto;
 }
 
@@ -76,7 +76,7 @@ body {
   align-items: center;
   grid-area: titulo;
   font-family: sans-serif;
-  font-size: 8vw;
+  font-size: 100px;
   color: yellow;
   text-shadow: 3px 3px brown, 0 0px 50px  rgb(255, 77, 0);
 }
@@ -172,7 +172,7 @@ body {
 .tabla {
   border-collapse:collapse;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 2vw;
+  font-size: 20px;
   width: 90%;
   justify-items: center;
 
@@ -196,7 +196,7 @@ td {
 
 
 .galeria{
-  padding-top:70px;
+  padding-top:40px;
   text-align: center;
 }
 
@@ -204,19 +204,36 @@ td {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  gap: 20px;
+  gap: 15px;
   justify-content: center;
   padding: 40px 0px;
 }
 
 .contenedorfotos img{
-  width: 75%;
+  width: 80%;
   height: auto;
   border: 2px black solid;
   box-shadow: 3px 3px brown, 0 0px 50px  rgb(255, 77, 0);
 }
 
+.clases{
+  display:grid;
 
+  padding: 80px 40px;
+  justify-content: left;
+}
+
+.clases h1{
+  text-align: center;
+}
+
+.contenedorclases{
+  display:grid;
+  width: 100%;
+  gap: 15px;
+  justify-items:left;
+  padding: 40px 40px;
+}
 
 @media (max-width: 900px) {
   .contenedorsidemain{
@@ -228,6 +245,18 @@ td {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  #logoprincipal{
+    width: 150px;
+  }
+
+  .titulo{
+    font-size: 60px;
+  }
+
+  .subtitulo{
+    font-size: 30px;
   }
 
   .contenedortabla{
