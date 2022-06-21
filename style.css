@@ -102,7 +102,6 @@ body {
 .direcciondos{
   display: grid;
   grid-area: direcciondos;
-  padding-top: 20px;
   font-family: sans-serif;
   font-size: 20px;
 }
@@ -265,13 +264,9 @@ td {
   .subtitulo{
     font-size: 30px;
   }
-    
-  .direccionuno{
-    font-size: 12px;
-  }
-    
-  .direcciondos{
-    font-size: 12px;
+
+  .direccion{
+    font-size: 15px;
   }
 
   .contenedortabla{
@@ -282,8 +277,13 @@ td {
     font-size: 3vw;
   }
 
- .header p{
+  .direccionuno{
     font-size: 15px;
   }
+
+  .direcciondos{
+    font-size: 15px;
+  }
+
 
 }
