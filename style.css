@@ -266,7 +266,11 @@ td {
     font-size: 30px;
   }
     
-  .direccion{
+  .direccionuno{
+    font-size: 12px;
+  }
+    
+  .direcciondos{
     font-size: 12px;
   }
 
