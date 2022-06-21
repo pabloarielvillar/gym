@@ -51,8 +51,8 @@ body {
     display: grid;
     width: 100%;
     grid-template-columns: 35% 65%;
-    grid-template-rows: 2fr 1fr 1fr;
-    grid-template-areas: "logoprincipal titulo" "logoprincipal subtitulo" "logoprincipal direccion";
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+    grid-template-areas: "logoprincipal titulo" "logoprincipal subtitulo" "logoprincipal direccionuno" "logoprincipal direcciondos";
     padding: 40px 0px;
 }
 
@@ -91,9 +91,17 @@ body {
   color: rgb(238, 185, 39);
 }
 
-.direccion{
+.direccionuno{
   display: grid;
-  grid-area: direccion;
+  grid-area: direccionuno;
+  padding-top: 20px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.direcciondos{
+  display: grid;
+  grid-area: direcciondos;
   padding-top: 20px;
   font-family: sans-serif;
   font-size: 20px;
