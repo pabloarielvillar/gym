@@ -257,6 +257,10 @@ td {
   .subtitulo{
     font-size: 30px;
   }
+    
+  .direccion{
+    font-size: 15px;
+  }
 
   .contenedortabla{
     width: 100%;
