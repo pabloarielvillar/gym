@@ -280,10 +280,14 @@ td {
 
   .titulo{
     font-size: 60px;
+    width: 100%;
+    justify-content: center;
   }
 
   .subtitulo{
     font-size: 30px;
+    width: 100%;
+    justify-content: center;
   }
 
   .contenedortabla{
@@ -296,11 +300,16 @@ td {
 
   .direccionuno{
     font-size: 1em;
+    width: 100%;
+    justify-content: center;
   }
 
   .direcciondos{
     font-size: 1em;
+    width: 100%;
+    justify-content: center;
   }
+
 
 
 }
