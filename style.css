@@ -65,8 +65,8 @@ body {
 .logoprincipal{
   grid-area: logoprincipal;
   display: grid;
-  justify-content: stretch;
-  align-items: stretch;
+  justify-content: center;
+  align-items: center;
   padding-bottom: 20px;
 
 }
