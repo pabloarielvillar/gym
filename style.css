@@ -264,19 +264,6 @@ td {
   animation: logoprincipal 6s ease 2s infinite normal none;
 }
 
-@keyframes logoprincipal {
-	25%,
-	50%,
-	75% {
-		opacity: 1;
-	}
-
-	25%,
-	75% {
-		opacity: 0;
-	}
-}
-
 @media (max-width: 900px) {
 
   .header{
