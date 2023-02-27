@@ -160,6 +160,35 @@ body {
   display: none;
 }
 
+.movimiento {
+  padding: 40px;
+  background-color: black;
+}
+
+section{
+  display: flex;
+  width: 100%;
+  height: 430px;
+}
+
+section img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .5;
+  transition: .5s ease;
+}
+
+section img:hover{
+  cursor: crosshair;
+  width: 50%;
+  opacity: 1;
+  filter: contrast(120%);
+  border-radius: 10px;
+  border-style:ridge;
+  border-color: #ff8000;
+}
+
 .horarios{
   background-color: rgb(255, 123, 0);
   display: grid;
@@ -209,7 +238,7 @@ td {
 }
 
 .contenedorfotos{
-  display: flex;
+  display:flex;
   flex-wrap: wrap;
   width: 100%;
   gap: 15px;
@@ -218,8 +247,8 @@ td {
 }
 
 .contenedorfotos img{
-  width: 90%;
-  height: auto;
+  width: 400px;
+  height: 300px;
   border: 3px rgb(0, 0, 0) solid;
   box-shadow: 3px 3px brown, 0 0px 50px  rgb(255, 77, 0);
 }
@@ -309,4 +338,6 @@ td {
     width: 100%;
     justify-content: center;
   }
+
+
 }
